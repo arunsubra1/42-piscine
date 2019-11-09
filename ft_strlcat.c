@@ -1,0 +1,32 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/08/05 11:06:46 by asubrama          #+#    #+#             */
+/*   Updated: 2019/09/06 13:48:12 by asubrama         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+size_t	ft_strlcat(char *dst, const char *src, size_t size)
+{
+	size_t k;
+	size_t i;
+
+	i = 0;
+	k = 0;
+	while (dst[i] && i < size)
+		i++;
+	while ((src[k]) && ((k + i + 1) < size))
+	{
+		dst[i + k] = src[k];
+		k++;
+	}
+	if (i != size)
+		dst[i + k] = '\0';
+	return (i + ft_strlen(src));
+}
