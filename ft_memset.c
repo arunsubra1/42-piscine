@@ -6,11 +6,16 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/07 16:30:54 by asubrama          #+#    #+#             */
-/*   Updated: 2019/08/12 15:57:19 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 03:52:35 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+	Set the contents of a void variable to a desired character
+	after typecasting the void variables as char
+*/
 
 void	*ft_memset(void *b, int c, size_t len)
 {

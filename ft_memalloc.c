@@ -6,11 +6,15 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/08 12:42:54 by asubrama          #+#    #+#             */
-/*   Updated: 2019/09/07 03:21:02 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 06:36:22 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	allocate memory into void variable with given size. set content to 0.
+*/
 
 void	*ft_memalloc(size_t size)
 {

@@ -6,11 +6,18 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/03 18:14:19 by asubrama          #+#    #+#             */
-/*   Updated: 2019/09/06 13:18:32 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 04:21:57 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	add s2 to the end of s1. while s1 doesnt equal NULL we increment our i
+**	value and then we increment the j value while its not NULL and
+**	as we iterate through our second string we add the contents to our
+**	initial string and return that.
+*/
 
 char	*ft_strcat(char *s1, const char *s2)
 {

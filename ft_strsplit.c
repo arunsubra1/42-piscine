@@ -6,11 +6,17 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/11 16:38:53 by asubrama          #+#    #+#             */
-/*   Updated: 2019/09/07 22:02:23 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 08:34:17 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	splits the strings int an array of strings seperated by char c,
+**	iterate k to spell out the word, k to iterate through a string,
+**	and i to look for char c and as index start for strsub
+*/
 
 char	**ft_strsplit(char const *s, char c)
 {

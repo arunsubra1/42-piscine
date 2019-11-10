@@ -6,11 +6,15 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/31 17:03:29 by asubrama          #+#    #+#             */
-/*   Updated: 2019/08/11 16:19:31 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/10 01:10:23 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	change to uppercase
+*/
 
 int	ft_toupper(int c)
 {

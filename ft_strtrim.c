@@ -6,11 +6,19 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/09 11:43:57 by asubrama          #+#    #+#             */
-/*   Updated: 2019/09/07 21:09:37 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/10 01:08:58 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	trim spaces from begenning and end of string. Create new string to store
+**	contents of modified *s. iterate through initial spaces (i). Go to end of
+**	string iterate through spaces backwards (j). create new string equal to
+**	size of j and copy contents of s + i (initial string + index to start)
+**	up to the length of 
+*/
 
 char	*ft_strtrim(char const *s)
 {
@@ -24,11 +32,12 @@ char	*ft_strtrim(char const *s)
 	j = 0;
 	while (s[i] && ft_isspace(s[i]))
 		i++;
-	j = ft_strlen(&s[i]) - 1;
+	j = ft_strlen(&s[i]);
 	while (s[i] && ft_isspace(s[j + i]))
 		j--;
-	if (!(str = ft_strnew(j + 1)))
+	if (!(str = ft_strnew(j)))
 		return (NULL);
-	ft_strncpy(str, (s + i), (j + 1));
+	ft_strncpy(str, (s + i), j);
+	str == '\0';
 	return (str);
 }

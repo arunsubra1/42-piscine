@@ -6,11 +6,16 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/07 19:07:23 by asubrama          #+#    #+#             */
-/*   Updated: 2019/08/12 14:17:41 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 06:57:40 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	compare bytes of s1 and s2. if identical return 0, else return difference 
+**	between first 2 differing bytes.
+*/
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

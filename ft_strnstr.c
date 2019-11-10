@@ -6,11 +6,16 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/06 12:59:58 by asubrama          #+#    #+#             */
-/*   Updated: 2019/08/12 14:16:25 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/10 00:49:54 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	locates first occurrence of nullterminated string s2 in s1 while searching
+**	less than len amt of bytes.
+*/
 
 char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 {

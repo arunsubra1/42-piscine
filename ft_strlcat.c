@@ -6,11 +6,16 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/05 11:06:46 by asubrama          #+#    #+#             */
-/*   Updated: 2019/09/06 13:48:12 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 07:40:32 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	return total lenght of the string initial length of dst plus whatever 
+**	was appended from src
+*/
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
@@ -19,7 +24,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 
 	i = 0;
 	k = 0;
-	while (dst[i] && i < size)
+	while (dst[i] && dst[i] != '\0' && i < size)
 		i++;
 	while ((src[k]) && ((k + i + 1) < size))
 	{

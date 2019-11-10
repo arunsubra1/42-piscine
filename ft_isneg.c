@@ -6,11 +6,15 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/05 20:22:10 by asubrama          #+#    #+#             */
-/*   Updated: 2019/09/07 22:05:29 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 04:01:16 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	negative int checker
+*/
 
 int	ft_isneg(int nbr)
 {

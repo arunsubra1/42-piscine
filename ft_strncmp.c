@@ -6,11 +6,15 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/01 20:39:56 by asubrama          #+#    #+#             */
-/*   Updated: 2019/08/12 14:17:19 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 07:51:43 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	ft_strcmp but only up to the size of n
+*/
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

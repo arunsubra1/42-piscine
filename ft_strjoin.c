@@ -6,11 +6,20 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/08 23:19:14 by asubrama          #+#    #+#             */
-/*   Updated: 2019/09/07 17:24:51 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 05:13:10 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	join 2 strings together regardless if they have contents within them
+**	if no content return a fresh string size of 0. if only one string
+**	has content we ft_strdup that string. otherwise we get the length of
+**	both strings and create a new string with enough memory to hold contents
+**	from both strings and copy the first string into the new string and then
+**	cat the second string into the copied one. return the new string.
+*/
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

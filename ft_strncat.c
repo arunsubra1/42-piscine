@@ -6,11 +6,16 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/05 10:36:01 by asubrama          #+#    #+#             */
-/*   Updated: 2019/08/11 16:01:41 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 07:50:55 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	add s2 to the end of s1 while the total length of the string is
+**	less than n
+*/
 
 char	*ft_strncat(char *s1, char *s2, size_t n)
 {

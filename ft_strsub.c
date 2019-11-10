@@ -6,11 +6,17 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/08 23:07:44 by asubrama          #+#    #+#             */
-/*   Updated: 2019/09/07 21:21:02 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/10 00:57:48 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	create new null terminated string size of len set the new string
+**	equal to the start parameter and copy contents up to len bytes.
+**	return new string.
+*/
 
 char	*ft_strsub(const char *s, unsigned int start, size_t len)
 {

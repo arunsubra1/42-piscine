@@ -6,11 +6,15 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/31 16:42:08 by asubrama          #+#    #+#             */
-/*   Updated: 2019/08/11 15:29:04 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 04:02:41 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	chec int to see if its printable
+*/
 
 int	ft_isprint(int c)
 {

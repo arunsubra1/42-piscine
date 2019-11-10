@@ -6,11 +6,15 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/03 17:22:43 by asubrama          #+#    #+#             */
-/*   Updated: 2019/09/04 20:58:07 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 07:55:30 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	copy src into dst up to size n
+*/
 
 char	*ft_strncpy(char *dst, const char *src, size_t n)
 {

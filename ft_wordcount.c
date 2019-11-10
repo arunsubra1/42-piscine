@@ -6,11 +6,15 @@
 /*   By: asubrama <asubrama@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/07 20:05:49 by asubrama          #+#    #+#             */
-/*   Updated: 2019/09/07 20:15:33 by asubrama         ###   ########.fr       */
+/*   Updated: 2019/11/09 08:20:34 by asubrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+**	counts block of characters delimited by int c (counts words)
+*/
 
 int	ft_wordcount(char const *s, int c)
 {
